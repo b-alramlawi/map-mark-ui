@@ -1,0 +1,59 @@
+/* Navbar */
+.navbar {
+    background-color: #373a3d; /* Dark blue background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 0;
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0; /* Position at the top of the viewport */
+    left: 0; /* Stretch to the left edge */
+    right: 0; /* Stretch to the right edge */
+    z-index: 1000; /* Ensure it's above other content */
+}
+
+
+/* Navbar Container */
+.navbar-container {
+    max-width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Add some padding to the sides */
+
+}
+
+/* Navbar Logo */
+.navbar-logo {
+    color: #f4a261; /* Orange text color */
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navbar Menu */
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Items */
+.navbar-item {
+    margin-right: 20px;
+}
+
+/* Navbar Links */
+.navbar-link {
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Navbar Link Hover */
+.navbar-link:hover {
+    color: #f4a261; /* Orange text color on hover */
+}
+

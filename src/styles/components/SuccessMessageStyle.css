@@ -1,0 +1,15 @@
+/* Success Message Container */
+.success-message {
+    background-color: #28a745; /* Green background color for success */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Message Text */
+.message-text {
+    font-size: 16px;
+    color: #ffffff;
+}

@@ -1,0 +1,129 @@
+/* HomePage Container */
+.home-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+
+/* Style for the map container */
+.map-container {
+    flex: 1; /* Take up remaining vertical space */
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+/* Style for the left content (you can adjust this as needed) */
+.left-content {
+    flex: 1; /* Takes up remaining space */
+    background-color: #f0f0f0; /* Background color for other content */
+    /* Add any other styles you want for the left content */
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 70px;
+}
+
+.header p {
+    font-size: 18px;
+    color: #777;
+}
+
+/* Featured Section */
+.featured-section {
+    margin-bottom: 40px;
+}
+
+.featured-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.featured-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.featured-item {
+    flex: 0 0 calc(33.333% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.featured-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.featured-item h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.featured-item p {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Latest Section */
+.latest-section {
+    margin-bottom: 40px;
+}
+
+.latest-section h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.latest-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.latest-item {
+    flex: 0 0 calc(33.333% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.latest-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.latest-item h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+.latest-item p {
+    font-size: 14px;
+    color: #777;
+}

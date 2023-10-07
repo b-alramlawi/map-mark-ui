@@ -1,0 +1,110 @@
+/* LoginPage Container */
+.login-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+
+/* LoginPage Form */
+.login-form {
+    background-color: #373a3d; /* Dark blue background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(255, 107, 61); /* Increased blur radius and stronger shadow color */
+    width: 400px;
+    color: #ffffff; /* White text color */
+
+}
+
+.form-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Add styles for the "Forgot Password?" link */
+.forgot-password-link {
+    text-align: left; /* Align the link to the right */
+    margin-top: 20px; /* Add some space above the link */
+    padding: 10px 0; /* Add padding to the link */
+}
+
+.forgot-password-text {
+    color: #007bff; /* Link text color */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 14px; /* Adjust the font size */
+    border-bottom: 1px solid transparent; /* Add a transparent border to create an underline effect */
+    transition: border-color 0.2s ease-in-out; /* Smooth transition for the border color */
+}
+
+.forgot-password-text:hover {
+    border-color: #007bff; /* Change the border color on hover to make it visible */
+}
+
+/* Add styles for the "Don't have an account? Signup" text */
+.login-link {
+    text-align: center; /* Center-align the text */
+    margin-top: 20px; /* Add some space above the text */
+    padding: 10px 0; /* Add padding to the text */
+}
+
+.signup-link {
+    color: #007bff; /* Link text color */
+    text-decoration: none; /* Remove underline from the link */
+    font-size: 14px; /* Adjust the font size */
+    border-bottom: 1px solid transparent; /* Add a transparent border to create an underline effect */
+    transition: border-color 0.2s ease-in-out; /* Smooth transition for the border color */
+}
+
+.signup-link:hover {
+    border-color: #007bff; /* Change the border color on hover to make it visible */
+}
+
+
+
+.submit-button {
+    width: 100%;
+    background-color: #ff6b3d; /* Button background color */
+    color: #fff; /* Button text color */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #f4a261; /* Button background color on hover */
+}
+
+.success-message {
+    color: green; /* Success message color */
+    text-align: center;
+    margin-top: 10px;
+}
+
+.error-message {
+    color: red; /* Error message color */
+    text-align: center;
+    margin-top: 10px;
+}

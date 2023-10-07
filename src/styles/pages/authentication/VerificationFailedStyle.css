@@ -1,0 +1,51 @@
+
+.email-verification-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+/* Email Verification Message */
+.email-verification-message {
+    background-color: #373a3d; /* Dark blue background color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgb(255, 107, 61); /* Increased blur radius and stronger shadow color */
+    text-align: center;
+    width: 400px;
+    color: #ffffff; /* White text color */
+}
+
+.error-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff6b3d; /* Orange text color */
+}
+
+.error-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #fa0036; /* Orange text color */
+}
+
+/* Go to LoginPage Button */
+.home-button {
+    display: inline-block;
+    background-color: #ff6b3d; /* Orange background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth color transition on hover */
+}
+
+/* Go to LoginPage Button Hover */
+.home-button:hover {
+    background-color: #f4a261; /* Darker orange background color on hover */
+}

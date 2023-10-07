@@ -1,0 +1,14 @@
+/* Failed Message Container */
+.failed-message {
+    background-color: #dc3545; /* Red background color for failed messages */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Message Text */
+.message-text {
+    font-size: 16px;
+}
