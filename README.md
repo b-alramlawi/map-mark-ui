@@ -10,8 +10,7 @@ Welcome to Map Mark UI, your gateway to an elegant and user-friendly location bo
 - **Fortified Security:** Robust authentication safeguards your data.
 - **Intuitive Bookmarking:** Effortlessly manage your personalized location bookmarks.
 
-## Image Gallery 📷
-![4](https://github.com/b-alramlawi/map-mark-ui/assets/63581864/f0148763-4d30-430a-a7d9-11d0dbf994da)
+## Project Image 📷
 
 ## Tech Stack ✨
 
