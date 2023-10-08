@@ -41,7 +41,6 @@ Welcome to Map Mark UI, your gateway to an elegant and user-friendly location bo
     </td>
   </tr>
 </table>
-![Image Name](https://user-images.githubusercontent.com/63581864/215319050-dbe28569-59d3-41fe-88f1-4c113ef34c43.png)
 
 ## Tech Stack ✨
 
