@@ -26,7 +26,7 @@ Welcome to Map Mark UI, your gateway to an elegant and user-friendly location bo
   </tr>
   <tr>
     <td align="center">
-      <img src="{https://drive.google.com/uc?id=1gKgBAE3_i94Xawd8qgs1GWTR67T5u9f8" alt="Image 4" width="300" height="200">
+      <img src="https://drive.google.com/uc?id=1gKgBAE3_i94Xawd8qgs1GWTR67T5u9f8" alt="Image 4" width="300" height="200">
     </td>
     <td align="center">
       <img src="https://drive.google.com/uc?id=1ikS0oFsAS8I8vGuzn2SZOIoPiy2SMWxI" alt="Image 5" width="300" height="200">
